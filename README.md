@@ -60,9 +60,14 @@ A UML (Linguagem de Modelagem Unificada) é uma linguagem visual padrão usada p
 
 ![UML](../TPPE-Produtos_de_limpeza-1/doc/uml.png) 
 
-# Prototipação
-<p>O protótipo da aplicação foi desenvolvido utilizando a ferramenta Figma e está disponível no link abaixo. Ele representa a interface das principais funcionalidades descritas nas histórias de usuário, auxiliando na validação visual e na comunicação entre equipe de desenvolvimento e stakeholders.</p>
-🔗 Acessar protótipo no [Figma](https://www.figma.com/design/tu8TybxBEWE2HpTdv7V3XE/Untitled?node-id=0-1&t=1rd8mW75ry7N0a0x-1/)
+## Prototipação
+
+O protótipo da aplicação foi desenvolvido na ferramenta **Figma** e pode ser acessado no link abaixo.  
+Ele representa a interface das principais funcionalidades descritas nas histórias de usuário,  
+servindo como apoio à validação visual e à comunicação entre a equipe de desenvolvimento e os stakeholders.
+
+🔗 [Acessar protótipo no Figma](https://www.figma.com/design/tu8TybxBEWE2HpTdv7V3XE/Untitled?node-id=0-1&t=1rd8mW75ry7N0a0x-1)
+
 
 ## Referências
 
