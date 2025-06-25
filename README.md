@@ -58,7 +58,10 @@ A UML (Linguagem de Modelagem Unificada) é uma linguagem visual padrão usada p
 
 ## UML
 
-![UML](../TPPE-Produtos_de_limpeza-1/doc/uml.png) 
+![UML](doc/uml.png) 
+
+## Diagrama de Bancos 
+![Diagrama de Bancos](doc/diagrama_banco.png) 
 
 ## Prototipação
 
