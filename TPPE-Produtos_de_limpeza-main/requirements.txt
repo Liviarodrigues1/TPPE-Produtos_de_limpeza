@@ -1,0 +1,14 @@
+fastapi
+sqlalchemy
+pymysql
+pydantic[email]
+pytest
+pytest-asyncio
+httpx
+cryptography
+pylint
+flask
+uvicorn
+sqlalchemy
+requests
+psycopg2-binary

@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    environment:
+      DATABASE_URL: postgresql://produto_de_limpeza_user:tYAvKKBuU0RfmJbs4azvWuv1GtXrU4Uc@dpg-d1tp9qjipnbc73cjffc0-a.oregon-postgres.render.com:5432/produto_de_limpeza
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  test:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    volumes:
+      - ./app:/app
+    environment:
+      - PYTHONPATH=/app
+    command: ["pytest", "--disable-warnings", "-v"]
+    depends_on:
+      - backend
+
+  lint:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    volumes:
+      - ./app:/app
+    command: ["pylint", "--disable=R,C", "."]
+
+volumes:
+  mysql_data:
